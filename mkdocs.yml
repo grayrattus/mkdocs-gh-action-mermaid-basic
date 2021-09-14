@@ -1,5 +1,11 @@
 site_name: MkLorum
 site_url: https://example.com/
+docs_dir: src/
+
+theme:
+    name: mkdocs
+    custom_dir: mkdocs-theme
+
 nav:
-    - Home: index.md
-    - About: about.md
+    - 'index.md'
+    - About: components/App/index.md
