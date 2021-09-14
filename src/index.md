@@ -1,3 +1,5 @@
+# Here is an example of mermaid
+
 <div class="mermaid">
 graph TB
     A[Hard edge] -->|Link text| B(Round edge)
