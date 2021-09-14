@@ -10,4 +10,5 @@ theme:
 
 nav:
     - 'index.md'
-    - About: components/App/index.md
+    - App: components/App/index.md
+    - Map: components/Map/index.md
