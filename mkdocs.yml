@@ -1,6 +1,8 @@
 site_name: MkLorum
 site_url: https://example.com/
 docs_dir: src/
+repo_name: 'grayrattus/mkdocs-gh-action-mermaid-basic.io'
+repo_url: 'https://github.com/grayrattus/mkdocs-gh-action-mermaid-basic.io'
 
 theme:
     name: mkdocs
