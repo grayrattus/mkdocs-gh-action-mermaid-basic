@@ -1,6 +1,6 @@
 site_name: MkLorum
 site_url: https://example.com/
-docs_dir: src/
+docs_dir: ./src
 repo_name: 'grayrattus/mkdocs-gh-action-mermaid-basic.io'
 repo_url: 'https://github.com/grayrattus/mkdocs-gh-action-mermaid-basic.io'
 
@@ -9,6 +9,7 @@ theme:
     custom_dir: mkdocs-theme
 
 nav:
-    - 'index.md'
-    - App: components/App/index.md
-    - Map: components/Map/index.md
+        - Home: ../
+        - Components: 
+                - App: components/App/index.md
+                - Map: components/App/index.md
